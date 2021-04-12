@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.needle.editorpatching": {
+      "version": "file:../../../../../../package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.needle.selective-profiling": {
+      "version": "file:../../../../package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.needle.editorpatching": "1.1.1-exp"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
